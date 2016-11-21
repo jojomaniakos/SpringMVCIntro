@@ -10,7 +10,7 @@ public class HelloWorld {
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
  
-		String message = "<br><div style='text-align:center;'><h3>This message is coming from the java controller</div><br><br>";
+		String message = "<br><div style='text-align:center;'><h3>This message is coming from the java controller!</div><br><br>";
 		return new ModelAndView("welcome", "message", message);
 	}
 }
